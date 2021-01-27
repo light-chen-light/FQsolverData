@@ -7,7 +7,7 @@ Each file name consists of three parts.
 * Event name
 * Version of FQsolver corresponded
 
-For example, 20210126kamakuraM1 is the data file uploaded on Janurary 26th, 2021 for the Kamakura event, designed for FQ solver Version M1
+For example, 20210127kamakuraM1 is the data file uploaded on Janurary 27th, 2021 for the Kamakura event, designed for FQ solver Version M1
 
 ## How to use/what's in the file:
 * Download the needed data file to your MATLAB/Octave folder
@@ -22,7 +22,7 @@ For example, 20210126kamakuraM1 is the data file uploaded on Janurary 26th, 2021
 * * Reach=Mission;
 * Use the FQsolver
 
-# Tips
+## Tips
 * You can adjust AP with your preference: slightly lower the AP of the quests you like, slightly raise the AP of the quests you don't lke, and raise the AP skyhigh if you don't want to touch it at all.
 * You can fully costumize the vector AP if you have a different criterion for efficiency (lower numbers means more acceptable quests, etc., while the numbers should be positive)
 * Enter and run this code to display a summary of missions
