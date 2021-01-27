@@ -21,3 +21,11 @@ For example, 20210126kamakuraM1 is the data file uploaded on Janurary 26th, 2021
 * * Reach=zeros(size(Mission));
 * * Reach=Mission;
 * Use the FQsolver
+
+# Tips
+* You can adjust AP with your preference: slightly lower the AP of the quests you like, slightly raise the AP of the quests you don't lke, and raise the AP skyhigh if you don't want to touch it at all.
+* You can fully costumize the vector AP if you have a different criterion for efficiency (lower numbers means more acceptable quests, etc., while the numbers should be positive)
+* Enter and run this code to display a summary of missions
+* * cat(2,MissionName,mat2cell(Mission,ones(1,length(Mission))),mat2cell(Reach,ones(1,length(Reach))))
+* Enter and run this code to display a summary of quests
+* * cat(2,FQName,mat2cell(AP,ones(1,length(Mission))))
